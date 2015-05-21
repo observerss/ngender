@@ -15,7 +15,7 @@
 
 或者(OSX)
 
-> brew install ngender
+> brew install https://raw.githubusercontent.com/observerss/homebrew/61b3623967dc9507958dfb517e7f746baa96dcf1/Library/Formula/ngender.rb
 
 然后在命令行中
 
