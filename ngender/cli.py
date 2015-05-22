@@ -2,6 +2,7 @@ import argparse
 
 from .ngender import guess
 
+
 def main():
     parser = argparse.ArgumentParser(
         description='Guess gender for Chinese names')
