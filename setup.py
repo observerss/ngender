@@ -11,8 +11,9 @@ setup(
     author='Jingchao Hu(observerss)',
     author_email='jingchaohu@gmail.com',
     packages=['ngender'],
-    package_data={'': ['LICENSE'], 'ngender': ['charfreq.csv']},
-    license = open('LICENSE').read(),
+    package_data={'': ['LICENSE'],
+                  'ngender': ['charfreq.csv']},
+    license=open('LICENSE').read(),
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
