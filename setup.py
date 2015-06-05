@@ -5,7 +5,7 @@ except ImportError:
 
 setup(
     name='ngender',
-    version='0.1.0',
+    version='0.1.1',
     description='Guess gender for Chinese names',
     url='https://github.com/observerss/ngender',
     author='Jingchao Hu(observerss)',

@@ -24,10 +24,12 @@ class Guesser(object):
         self.freq = {}
 
         with open(os.path.join(os.path.dirname(__file__),
-                               'charfreq.csv')) as f:
+                               'charfreq.csv'),
+                  'rb') as f:
             # skip first line
             next(f)
             for line in f:
+                line = line.decode('utf-8')
                 char, male, female = line.split(',')
                 char = py2compat(char)
                 self.male_total += int(male)
